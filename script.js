@@ -1,5 +1,4 @@
-/* Logica de programação
-
+ /* Logica de programação
     [x] Saber quando o usuario clicou no botao
     [x] Mudar o posicionamento do modal
     [x] Fazer a mascara ficar visivel
