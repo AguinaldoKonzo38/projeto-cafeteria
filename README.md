@@ -33,6 +33,6 @@ O site foi construído seguindo o conceito **mobile-first**, garantindo uma boa 
 Clone este repositório e abra o arquivo `index.html` em seu navegador:  
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
+git clone https://github.com/AguinaldoKonzo38/projeto-cafeteria
+cd projeto-cafeteria
 

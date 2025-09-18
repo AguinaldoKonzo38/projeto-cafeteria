@@ -1,0 +1,21 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    body .box-menu .menu-elementos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body .box-menu .menu-elementos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1200px){
+    body .box-menu .menu-elementos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -72,13 +72,14 @@ body .box-menu {
     justify-content: center;
 }
 
-body .box-menu section{
-    display: flex;
-    flex-direction: column;
+body .box-menu .menu-elementos{
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
+    
 }
 
-body .box-menu section .pedido {
+body  .menu-elementos .pedido {
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 23rem;
     aspect-ratio: 1/1;
