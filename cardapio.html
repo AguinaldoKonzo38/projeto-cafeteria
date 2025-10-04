@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,60 +27,226 @@
 
     <div class="ccl">
         <section>
-            <h2><span class="gold">NOSSO</span> MENU</h2>
+            <h2><span class="gold">NOSSO</span> cardapio</h2>
         </section>
     </div>
 
-    <div class="box-menu">
+    <div class="tags_pesquisa">
+        <section>
+            <div class="tag tagAll">Todos</div>
+            <div class="tag tagCafe">Café</div>
+            <div class="tag h tagHamburg">Hamburguer</div>
+            <div class="tag tagOutros">Outros</div>
+
+        </section>
+    </div>
+
+    <div class="box-menu" id="box-menu">
         <!-- Inicio dos Pedidos -->
-        <section class="menu-elementos">
+        <section class="menu-elementos  pedidos-cafe">
 
             <div class="pedido">
                 <img src="images/menu-1.png" alt="menu-1">
-                <h3>Tasy And Healty</h3>
-                <p class="price">Kz 1000</p>
-                <button class="btnAddCart">Adicionar</button>
+                <h3>Café Espresso</h3>
+                <p class="price">Kz 1100</p>
+                <button class="btnAddCart" data-name="Café Espresso" data-price="1100">
+                    Adicionar
+                </button>
             </div>
 
             <div class="pedido">
                 <img src="images/menu-2.png" alt="menu-2">
-                <h3>Tasy And Healty</h3>
+                <h3>Caffe Latte</h3>
                 <p class="price">Kz 900</p>
-                <button class="btnAddCart">Adicionar</button>
+                <button class="btnAddCart" data-name="Caffe Latte" data-price="900">
+                    Adicionar
+                </button>
             </div>
 
             <div class="pedido">
                 <img src="images/menu-3.png" alt="menu-3">
-                <h3>Tasy And Healty</h3>
-                <p class="price">Kz 1150</p>
-                <button class="btnAddCart">Adicionar</button>
+                <h3>Cappuccino</h3>
+                <p class="price">Kz 1200</p>
+                <button class="btnAddCart" data-name="Cappuccino" data-price="1200">
+                    Adicionar
+                </button>
             </div>
 
             <div class="pedido">
                 <img src="images/menu-4.png" alt="menu-4">
-                <h3>Tasy And Healty</h3>
-                <p class="price">Kz 300</p>
-                <button class="btnAddCart">Adicionar</button>
+                <h3>Macchiato</h3>
+                <p class="price">Kz 1000</p>
+                <button class="btnAddCart" data-name="Macchiato" data-price="1000">
+                    Adicionar
+                </button>
             </div>
 
             <div class="pedido">
                 <img src="images/menu-5.png" alt="menu-5">
-                <h3>Tasy And Healty</h3>
-                <p class="price">Kz 500</p>
-                <button class="btnAddCart">Adicionar</button>
+                <h3>Mochaccino </h3>
+                <p class="price">Kz 1200</p>
+                <button class="btnAddCart" data-name="Mochaccino" data-price="1200">
+                    Adicionar
+                </button>
             </div>
 
             <div class="pedido">
                 <img src="images/menu-6.png" alt="menu-6">
-                <h3>Tasy And Healty</h3>
+                <h3>Café Americano</h3>
                 <p class="price">Kz 1200</p>
-                <button class="btnAddCart">Adicionar</button>
+                <button class="btnAddCart" data-name="Café Americano" data-price="1200">
+                    Adicionar
+                </button>
+            </div>
+        </section>
+
+        <div class="ccl ccl-1">
+            <section>
+                <h2><span class="gold">Hamburguer</span></h2>
+            </section>
+        </div>
+
+        <section class="menu-elementos pedidos-hamb">
+
+            <div class="pedido">
+                <img src="images/hamb-1.png" alt="hamb-1">
+                <h3>Hamburguer Smash</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 2000</p>
+                <button class="btnAddCart" data-name="Hamburguer Smash" data-price="2000">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-2.png" alt="hamb-2">
+                <h3>Hamburguer Duplo</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 3000</p>
+                <button class="btnAddCart" data-name="Hamburguer Duplo" data-price="3000">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-3.png" alt="hamb-3">
+                <h3>Hamburguer Salad</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1200</p>
+                <button class="btnAddCart" data-name="Hamburguer Salad" data-price="1200">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-4.png" alt="hamb-4">
+                <h3>Hamburguer da casa</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1100</p>
+                <button class="btnAddCart" data-name="Hamburguer da casa" data-price="1100">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-5.png" alt="hamb-5">
+                <h3>Hambúrguer Akak</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1500</p>
+                <button class="btnAddCart" data-name="Hambúrguer Akak" data-price="1500">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-6.png" alt="hamb-6">
+                <h3>Cheese Burguer</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1000</p>
+                <button class="btnAddCart" data-name="Cheese Burguer" data-price="1000">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-7.png" alt="hamb-7">
+                <h3>Dream Burger</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1400</p>
+                <button class="btnAddCart" data-name="Dream Burger" data-price="1400">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+
+            <div class="pedido">
+                <img src="images/hamb-8.png" alt="hamb-8">
+                <h3>Burger do Campo</h3>
+                <div class="hamb-content">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e
+                    maionese da casa.</div>
+                <p class="price">Kz 1200</p>
+                <button class="btnAddCart" data-name="Burger do Campo" data-price="1200">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
+            </div>
+        </section>
+
+        <div class="ccl ccl-1">
+            <section>
+                <h2><span>Outros</span></h2>
+            </section>
+        </div>
+
+        <section class="menu-elementos pedidos-outros">
+            <div class="pedido">
+                <img src="images/refri-1.png" alt="hamb-7">
+                <h3>Coca-Cola Lata</h3>
+                <div class="hamb-content">330 ml</div>
+                <p class="price">Kz 700</p>
+                <button class="btnAddCart" data-name="Coca-Cola Lata" 
+                data-price="700">
+                    <i class="fa fa-cart-plus text-lg text-white"></i>
+                </button>
             </div>
         </section>
         <!-- Fim dos Pedidos -->
     </div>
 
+    <!-- popup do carrinho -->
+    <div class="mascara"></div>
 
+    <section class="popup" id="carrinho-modal">
+        <h2>Meu carrinho</h2>
+
+        <div id="carrinho-items"></div>
+
+        <p>Total: <span class="carrinho-total" id="cart-total">0.00</span></p>
+
+        <p style="font-weight: normal; font-size: 1.4rem;">Endereço de entrega:</p>
+        <input type="text" id="address" placeholder="Digite o seu Endereço completo">
+        <p id="address-warn" style="color: red; font-weight: 500; font-size: 1.3rem; visibility: hidden;">Digite o seu Endereço completo</p>
+        <div class="controls">
+            <button id="checkout-btn">Finalizar pedido</button>
+        </div>
+    </section>
+
+    <!-- fim popup do carrinho-->
+
+    <footer class="carrinho" id="carrinho">
+        <section>
+            ( <span class="carrinho-conta" id="cart-counter">0</span> )
+            veja seu carrinho
+            <i class="fa fa-cart-plus" style="background-color: transparent;"></i>
+        </section>
+    </footer>
+
+    <script src="cardapio.js"></script>
 </body>
 
 </html>

@@ -4,12 +4,35 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    body .ccl h2 {
+        font-size: 3.5rem;
+    }
+
+    .popup{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        min-width: 600px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
     body .box-menu .menu-elementos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    body .ccl h2 {
+        font-size: 3.5rem;
+    }
+
+    .popup{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        min-width: 600px;
     }
 }
 
@@ -17,5 +40,17 @@
     body .box-menu .menu-elementos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    body .ccl h2 {
+        font-size: 3.5rem;
+    }
+
+    .popup{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        min-width: 600px;
     }
 }
