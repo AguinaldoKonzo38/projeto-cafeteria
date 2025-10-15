@@ -45,6 +45,14 @@ section{
     max-width: 1200px;
 }
 
+section h2{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -174,6 +182,58 @@ section{
     color: #fff;
     line-height: 1.8;
     padding: 1rem 0;
+}
+
+.coments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.coment{
+    background-color: var(--bg);
+    color: #fff;
+    width: 27rem;
+    height: 37rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coment img{
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coment div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.coment div p{
+    font-size: 14px;
+    padding: 1rem 1rem ;
+    font-weight: 300;
+}
+
+.coment img{
+    width: 6rem;
+    border-radius: 50%;
 }
 
 .modal{
